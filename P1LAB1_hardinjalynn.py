@@ -8,4 +8,5 @@ name=input("Enter your first and last name: ")
 
 #output a message using the variable
 print("Hey", name, "\nWelcome to zybooks!")
-#print("welcome toi zybooks!")
+#print("welcome to zybooks!")
+
