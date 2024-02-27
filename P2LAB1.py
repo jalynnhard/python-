@@ -3,7 +3,7 @@
 #p2lab1 = math expressions and f-strings
 
 mpg = float(input("Enter the cars mpg: "))
-cost_gas = float(input("how much is a galoinr of gas: "))
+cost_gas = float(input("how much is a galoin of gas: "))
 
 #Calculate cost of driving 20 miles
 miles_20 = (20/mpg) * cost_gas
