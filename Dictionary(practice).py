@@ -1,6 +1,6 @@
 #Dictionary - each item has a key and value
 
-cars = {"Yesla":"model s", "toyota":"prius", "chevy":"corola"}
+cars = {"tesla":"model s", "toyota":"prius", "chevy":"corola"}
 
 #Get item from dictionary
 print(cars["toyota"])
@@ -17,3 +17,14 @@ cars["ford"] = "f-150"
 print(cars)
 
 #Edit item in list
+cars["toyota"] = "sequoia"
+print(cars)
+
+#Remove item from dictionary
+del (cars)["tesla"]
+print(cars)
+
+friends = {"besties":["jan", "frank", "melissa",], "aqq":["dan", "sam"]}
+
+#get value using the key
+print(friends["besties"][1])
