@@ -7,7 +7,7 @@ pet_list = {}
 pet_list = {"Betty", "William", "Yoshi" , "Moon pie" , 2.5}
 
 #Get item from list by the index 
-print(f"{pet_list{3}}")
+print(f"{pet_list[3]}")
 
 weight = pet_list[4]
 
