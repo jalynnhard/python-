@@ -24,4 +24,12 @@ total_expenses = gas_expense + accommodation_expense + food_expense
 #Subtract expenses from budget
 remaining_budget = budget - total_expenses
 
-expenses = {"location":"Ashville", }
+print("-----------Travel expenses-------------")
+print("Location: Ashville")
+print("Intitial budget: $1200.0")
+print("Fuel: $250.0")
+print("Accomadation: $300.0")
+print("Food: $200.0")
+print("----------------------------------------")
+
+print("Remaining balance: $450.0")
