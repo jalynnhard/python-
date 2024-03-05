@@ -5,3 +5,5 @@ nums = []
 nums.append(5)
 nums.append(5.785)
 nums.append(63.0)
+
+print(nums)
