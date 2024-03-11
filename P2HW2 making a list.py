@@ -34,3 +34,4 @@ print(f"The largest value of the list is : {list_max}")
 #Get the length of the list
 list_length = len(nums)
 print(f"The list has {list_length} items")
+

@@ -3,13 +3,23 @@
 #P2HW2
 #Grading assignment for test
 
+#First make the list 
+#second we input the values
+#Third we got to the results
+#fourth we find the lowest grade
+#fith we find the highest grade 
+#six we find the sum of the grades 
+#seventh we find the average of the grades
+
 #List name 
 nums = []
 
-nums.append(65.5)
+nums.append(61)
 nums.append(88)
 nums.append(78.5)
-nums.append(90)
+nums.append(92)
+nums.append(65.5)
+nums.append(90 )
 
 print(nums)
 
@@ -31,6 +41,14 @@ print(f"Lowest grade: {list_low}")
 #Highest grade
 list_max = max(nums)
 print(f"Highest grade: {list_max}")
+
+#Sum of grade
+list_sum = sum(nums)
+print(f"Sum of grades: {list_sum}")
+
+#Get the average 
+average = sum(nums) / len(nums)
+print("average:", average)
 
 
 
