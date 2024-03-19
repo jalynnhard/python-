@@ -12,3 +12,8 @@ hours=input("Enter numbers of hours worked: ")
 Pay_rate=float(input("Enter employee's pay rate: "))
 print("------------------------------------------")
 
+#
+hours = 40
+
+if hours > 1:
+  print("Greater than one")
