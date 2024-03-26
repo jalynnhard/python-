@@ -16,3 +16,10 @@ timmy.shape("arrow")
 for side in range(4):
     timmy.forward(75)
     timmy.right(90)
+    
+    #While loop to draw the triangle
+    counter = 0
+    while counter < 3:
+        timmy.forward(75)
+        timmy.left(120)
+        counter += 1
