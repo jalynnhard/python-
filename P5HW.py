@@ -23,4 +23,3 @@ number = random.randint(1, 300)
 print("1.The random number is", number)
 print("2.The random number is", number )
 
-def my_function():
