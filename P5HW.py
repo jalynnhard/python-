@@ -10,12 +10,17 @@ print("Welcome to math quiz")
 print("MAIN MENU")
 print("----------------------------")
 
-num1 = float(input("1 adding random numbers: "))
-num2 = float(input("2 Subtracting random numbers: "))
+print("1.Adding Random Numbers")
+print("2.Subtract Random Numbers")
+print("3.Exit")
+
+num=input("Please choose one of the menu options:")
 
 import random 
-num1 = random.randint(1, 300)
-num2 = random.randint(1, 300)
+number = random.randint(1, 300)
+number = random.randint(1, 300)
 
-print("1.The random number is", num1)
-print("2.The random number is", num2 )
+print("1.The random number is", number)
+print("2.The random number is", number )
+
+def my_function():
